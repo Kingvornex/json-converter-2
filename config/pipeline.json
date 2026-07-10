@@ -9,6 +9,11 @@
       "module": "DamageAttrIdName",
       "input": "input/DamageAttrIdName.json",
       "output": "output/DamageAttrIdName.json"
+    },
+    {
+      "module": "SceneNames",
+      "input": "input/SceneNames.json",
+      "output": "output/SceneNames.json"
     }
   ]
 }
