@@ -1,0 +1,9 @@
+{
+  "jobs": [
+    {
+      "module": "dbm_table",
+      "input": "input/DbmTable.json",
+      "output": "output/DbmTable.min.json"
+    }
+  ]
+}
