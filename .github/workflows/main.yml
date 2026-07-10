@@ -45,6 +45,21 @@ jobs:
           if-no-files-found: error
           compression-level: 9
 
+
+
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      
+          git add output/
+          git diff --cached --quiet || git commit -m "Update generated JSON"
+          git push
+
+
+
+
       - name: Generate release information
         id: release_info
         shell: bash
