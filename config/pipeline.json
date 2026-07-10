@@ -14,6 +14,11 @@
       "module": "SceneNames",
       "input": "input/SceneNames.json",
       "output": "output/SceneNames.json"
+    },
+    {
+      "module": "RecountTable",
+      "input": "input/RecountTable.json",
+      "output": "output/RecountTable.json"
     }
   ]
 }
