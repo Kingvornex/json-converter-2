@@ -3,7 +3,12 @@
     {
       "module": "dbm_table",
       "input": "input/DbmTable.json",
-      "output": "output/DbmTable.min.json"
+      "output": "output/DbmTable.json"
+    },
+    {
+      "module": "DamageAttrIdName",
+      "input": "input/DamageAttrIdName.json",
+      "output": "output/DamageAttrIdName.json"
     }
   ]
 }
