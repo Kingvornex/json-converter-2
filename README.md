@@ -2,6 +2,10 @@
 
 [structure.md](structure.md)
 
+## online tools:
+* https://jsoncompare.org/
+* http://json.parser.online.fr/
+
 ---
 
 ## Rule for project
