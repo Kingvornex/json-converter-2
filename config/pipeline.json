@@ -29,6 +29,11 @@
       "module": "MonsterIdNameType",
       "input": "input/MonsterTable.json",
       "output": "output/MonsterIdNameType.json"
+    },
+    {
+      "module": "SceneTable",
+      "input": "input/SceneTable.json",
+      "output": "output/SceneTable.json"
     }
   ]
 }
