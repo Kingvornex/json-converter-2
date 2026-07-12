@@ -24,6 +24,11 @@
       "module": "RecountTable",
       "input": "input/RecountTable.json",
       "output": "output/RecountTable.json"
+    },
+    {
+      "module": "MonsterIdNameType",
+      "input": "input/MonsterTable.json",
+      "output": "output/MonsterIdNameType.json"
     }
   ]
 }
