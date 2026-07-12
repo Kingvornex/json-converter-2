@@ -2,12 +2,22 @@ def convert(data):
     result = {}
 
     for key, entry in data.items():
-        # Use Id as output key if available, otherwise keep the original key
-        output_key = str(entry.get("Id", key))
+        names = entry.get("Names", {})
 
-        result[output_key] = {
+        if isinstance(names, dict):
+            name = (
+                names.get("en")
+                or entry.get("Name")
+                or names.get("zh-CN")
+                or names.get("zh")
+                or "Unknown"
+            )
+        else:
+            name = entry.get("Name", "Unknown")
+
+        result[str(entry.get("Id", key))] = {
             "MonsterType": entry.get("MonsterType", 0),
-            "Name": entry.get("Name", "")
+            "Name": name,
         }
 
     return result
